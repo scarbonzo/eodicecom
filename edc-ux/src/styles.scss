@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
+body {
+    background-color: snow;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card {
+    background-color: wheat;
+    padding: 5px;    
+    margin: auto;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+// Text
+.text-white {
+    color: white;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-yellow {
+    color: yellow !important;
+}
+
+.text-gray {
+    color: grey;
+}
+
+.title {
+    font-size: 150% !important;
+    font-weight: bolder;
+}
+
+.strong {
+    font-size: 110% !important;
+    font-weight: bold;
+}
+// Text
+
+// Other Colors
+.border-yellow {
+    border-color: yellow;
+    border-width: 2px;
+}
+
+.bg-light-blue {
+    background-color: #daddf2;
+}
+// Other Colors
+
+//Tables
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: lightgray;
+ }
+//Tables
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.menu-spacer {
+    width: 15px;
+}
+
+.accordion-button {
+    background-color: silver !important;
+}
+
+.accordion-body {
+    background-color: white !important;
+}
+
+.accordion-item {
+    background-color: whitesmoke;
+}
+
+
